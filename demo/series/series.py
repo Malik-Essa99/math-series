@@ -43,8 +43,3 @@ def sum_series(n,num1=0,num2=1):
         else:
             return sum_series(n-1,num1,num2) + sum_series(n-2,num1,num2)
     # pass
-
-def printHi():
-    print("hi")
-    
-printHi()
